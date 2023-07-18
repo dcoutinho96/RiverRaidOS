@@ -3,7 +3,7 @@
 # Assembly source file
 ASM_SOURCES = boot.s
 # C source files
-C_SOURCES = kernel.c video_driver.c
+C_SOURCES = kernel.c video_driver.c text.c
 # Object files
 C_OBJECTS = $(patsubst %.c, %.o, $(C_SOURCES))
 # Output file name

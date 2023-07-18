@@ -18,8 +18,8 @@
 .long 0
 .long 0
 .long 0
-.long 800
-.long 600
+.long 640
+.long 480
 .long 32
 
 # Reserve a stack for the initial thread.

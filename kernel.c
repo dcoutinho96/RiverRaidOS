@@ -2,6 +2,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "video_driver.h"
+#include "text.h"
 
 /* Check if the compiler thinks you are targeting the wrong operating system. */
 #if defined(__linux__)
@@ -14,13 +15,6 @@
 #endif
 
 void kernel_main(uint32_t *multiboot) {
-    //set_framebuffer(multiboot);
-
-    argb_t  * red;
-    
-    red->a = 0xff;
-
-    red->r = 0xff;
-    red->g = 0x00;
-    red->b = 0x00;
+    set_framebuffer(multiboot);
+    put_char('D');
 }
