@@ -1,5 +1,5 @@
 #include "text.h"
-#include "fonts/font8x8.h"
+#include "font8x8.h"
 #include "vga.h"
 #include "video_driver.h"
 

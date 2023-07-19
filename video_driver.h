@@ -1,3 +1,6 @@
+#ifndef _VIDEO_DRIVER_H
+#define _VIDEO_DRIVER_H
+
 #include <stdint.h>
 
 #ifdef __cplusplus
@@ -31,4 +34,6 @@ void putrectsfi(int, int, int, int, uint32_t, uint32_t);
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif

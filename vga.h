@@ -1,5 +1,5 @@
-#ifndef ARCH_I386_VGA_H
-#define ARCH_I386_VGA_H
+#ifndef _VGA_H
+#define _VGA_H
 
 #ifndef GLYPH_WIDTH
 #define GLYPH_WIDTH 8
