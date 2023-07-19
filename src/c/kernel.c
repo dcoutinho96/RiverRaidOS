@@ -2,8 +2,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "video_driver.h"
-#include "vtty.h"
+#include "include/video_driver.h"
+#include "include/vtty.h"
 
 /* Check if the compiler thinks you are targeting the wrong operating system. */
 #if defined(__linux__)

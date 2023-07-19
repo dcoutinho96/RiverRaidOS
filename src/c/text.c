@@ -1,7 +1,7 @@
-#include "text.h"
-#include "font8x8.h"
-#include "vga.h"
-#include "video_driver.h"
+#include "include/text.h"
+#include "include/font8x8.h"
+#include "include/vga.h"
+#include "include/video_driver.h"
 
 int x = 0;
 int x2 = 0;
