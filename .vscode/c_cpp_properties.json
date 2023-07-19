@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/cross/i686-elf/bin/i686-elf-gcc",
+            "cStandard": "c99",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-std=gnu99",
+                "-ffreestanding",
+                "-O2",
+                "-Wall ",
+                "-include-freestanding-c99",
+                "-I",
+                "Wextra",
+                "nostdlib",
+                "lgcc"
+            ],
+            "compilerPathInCppPropertiesJson": "/usr/local/cross/i686-elf/bin/i686-elf-gcc",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "$",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "i686-elf",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

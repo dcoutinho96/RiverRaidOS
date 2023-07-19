@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "video_driver.h": "c",
+        "stddef.h": "c",
+        "stdint.h": "c",
+        "vtty.h": "c"
+    }
+}

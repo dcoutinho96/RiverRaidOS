@@ -1,9 +1,9 @@
 
-#include "../../include/vtty.h"
-#include "../../include/vga.h"
-#include "../../include/text.h"
-#include "../../include/video_driver.h"
-#include "../../include/font8x8.h"
+#include "vtty.h"
+#include "vga.h"
+#include "text.h"
+#include "video_driver.h"
+#include "font8x8.h"
 
 const uint32_t start_x = 10;
 const uint32_t start_y = 10;
@@ -69,7 +69,7 @@ void terminal_putchar(char c)
 
 void terminal_write(const char* data, size_t size)
 {
-	for (int i = 0; i < size; ++i)
+	for (long unsigned int i = 0; i < size; ++i)
 	{
 		terminal_putchar(data[i]);
 	}

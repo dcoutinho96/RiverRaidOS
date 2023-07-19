@@ -1,7 +1,7 @@
-#include "../../include/text.h"
-#include "../../include/font8x8.h"
-#include "../../include/vga.h"
-#include "../../include/video_driver.h"
+#include "text.h"
+#include "font8x8.h"
+#include "vga.h"
+#include "video_driver.h"
 
 int x = 0;
 int x2 = 0;
@@ -10,7 +10,7 @@ int y = 0;
 uint32_t fg = 0xffffffff;
 uint32_t bg = 0xff000000;
 
-int strlen(char *s)
+int strlen(const char *s)
 {
     int i = 0;
     while (s[i] != '\0')
