@@ -1,9 +1,9 @@
 
-#include "include/vtty.h"
-#include "include/vga.h"
-#include "include/text.h"
-#include "include/video_driver.h"
-#include "include/font8x8.h"
+#include "../../include/vtty.h"
+#include "../../include/vga.h"
+#include "../../include/text.h"
+#include "../../include/video_driver.h"
+#include "../../include/font8x8.h"
 
 const uint32_t start_x = 10;
 const uint32_t start_y = 10;
